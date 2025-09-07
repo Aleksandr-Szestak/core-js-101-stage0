@@ -50,7 +50,6 @@ function getCircleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  /* global BigInt */
   return Number((BigInt(value1) + BigInt(value2)) / BigInt(2));
 }
 
